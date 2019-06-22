@@ -43,32 +43,30 @@ Libraries used in this project :
      
   Annexe 2 : environmentVariables.py content ?
   
-   import os 
+    import os 
 
-   -- Set environment variables
+   -- Set environment variables and Retrieve set environment variables
 
-   os.environ['bot_email'] = 'YOUR BOT EMAIL, or you can use the already created one : '
-   os.environ['teams_token'] = 'YOUR TOKEN'
-   os.environ['bot_url'] = 'YOUR BOT URL'
-   os.environ['bot_app_name'] = 'IXCBooking'
-   os.environ['uid'] = 'YOUR BOOKED API UID'
-   os.environ['session_token'] = 'YOUR SESSION TOKEN'
-   os.environ['url_schedule'] = 'Get this URL from IXC admins :)'
-   os.environ['url_create'] = 'Get this URL from IXC admins :) '
+    os.environ['bot_email'] = 'YOUR BOT EMAIL, or you can use the already created one : '
+    os.environ['teams_token'] = 'YOUR TOKEN'
+    os.environ['bot_url'] = 'YOUR BOT URL'
+    os.environ['bot_app_name'] = 'IXCBooking'
+    os.environ['uid'] = 'YOUR BOOKED API UID'
+    os.environ['session_token'] = 'YOUR SESSION TOKEN'
+    os.environ['url_schedule'] = 'Get this URL from IXC admins :)'
+    os.environ['url_create'] = 'Get this URL from IXC admins :) '
+    
+   
+    bot_email = os.environ.get('bot_email')
+    teams_token = os.environ.get('teams_token')
+    bot_url = os.environ.get('bot_url')
+    bot_app_name = os.environ.get('bot_app_name')
+    uid = os.environ.get('uid')
+    session_token=os.environ.get('session_token')
+    url_schedule=os.environ.get('url_schedule')
+    url_create=os.environ.get('url_create')
 
 
-
-
-
-  -- Retrieve set environment variables
-  bot_email = os.environ.get('bot_email')
-  teams_token = os.environ.get('teams_token')
-  bot_url = os.environ.get('bot_url')
-  bot_app_name = os.environ.get('bot_app_name')
-  uid = os.environ.get('uid')
-  session_token=os.environ.get('session_token')
-  url_schedule=os.environ.get('url_schedule')
-  url_create=os.environ.get('url_create')
 
 
 
