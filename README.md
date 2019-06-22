@@ -45,7 +45,7 @@ Libraries used in this project :
   
    import os 
 
-   # Set environment variables
+   -- Set environment variables
 
    os.environ['bot_email'] = 'YOUR BOT EMAIL, or you can use the already created one : '
    os.environ['teams_token'] = 'YOUR TOKEN'
@@ -60,7 +60,7 @@ Libraries used in this project :
 
 
 
-  # Retrieve set environment variables
+  -- Retrieve set environment variables
   bot_email = os.environ.get('bot_email')
   teams_token = os.environ.get('teams_token')
   bot_url = os.environ.get('bot_url')
