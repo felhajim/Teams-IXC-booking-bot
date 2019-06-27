@@ -2,10 +2,22 @@
 A bot that helps in the booking process for Cisco's IXC @ Dubai.
 Submission for the Cisco EMEA
 
+   - What is the story?  What was the business challenge?
+  + The booking process is e-mail intensive. (http://ixc.cisco.com/ixc/)
+  + After the customer enters the booking details, he needs to wait for another mail just to send him a briefing link. 
+  + The IXC admins need to check (manually) the existence of the Deal ID filled in by the customer.
+
+   - Goal of the Software Project
+  + New booking experience is needed, Design thinking workshop outcome : Create a webex teams bot to streamline the booking       process.
+  + User should be referred to the briefing form to fill after creating a reservation.
+  
+
 Libraries used in this project :
 
   - webexteamsbot : https://pypi.org/project/webexteamsbot/
   - Some Python standard libraries (requests, os, configparser)
+  
+
   
   
 # How do I run this bot on my machine ?
